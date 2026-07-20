@@ -79,9 +79,9 @@ pingouin
 - **Model comparison.** The **GPT-based model** generally tracks the real data distributions more closely than the **Llama-based model**, with comparatively fewer large-effect-size divergences overall.
 
 <br />
-![Distribution Groups by llama3](visualization/1_llama.png)  
+[![Distribution Groups by llama3](visualization/1_llama.png)  
 <br />
-![Distribution Groups by gpt-4o](visualization/1_gpt.png)
+[![Distribution Groups by gpt-4o](visualization/1_gpt.png)
 <br />
   
 - **Construct matters more than subgroup, and the pattern differs by model**:
