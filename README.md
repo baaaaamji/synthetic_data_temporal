@@ -85,12 +85,14 @@ pingouin
 ### Visualization Results by llama3
 
 <br/>
-
+<div align="center">
+  
 <img src="visualization/2_llama.png" width="500" height="500"/>
-
 <br/>
-
+  
 ![image](visualization/1_llama.png)  
+
+</div>
 
 <br/>
 
@@ -98,11 +100,15 @@ pingouin
 
 <br/>
 
+<div align="center">
+
 <img src="visualization/2_gpt.png" width="500" height="500"/>
 
 <br/>
 
 ![image](visualization/1_gpt.png)
+
+</div>
 
 <br/>
 
