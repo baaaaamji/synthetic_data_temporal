@@ -71,7 +71,7 @@ pingouin
 - **Model comparison.** The **GPT-based model** generally tracks the real data distributions more closely than the **Llama-based model**, with comparatively fewer large-effect-size divergences overall.
 
   
-- **Construct matters more than subgroup, and the pattern differs by model**:
+- **Construct matters more than subgroup, and the pattern differs by model and question domains**:
   - The **Llama-based model**'s human–synthetic gap is substantially larger for socially stigmatized constructs (violence, delinquency, depression) than for general relationship constructs, with a consistent tendency to overestimate how often these stigmatized behaviors occur. This pattern holds for both subgroups.
   - The **GPT-based model** shows the opposite tendency in places: it performs relatively well on some stigmatized constructs (e.g., status and serious delinquency) but underestimates responses on general-relationship constructs such as teacher and friend support.
 - **Variance is consistently compressed** *(see Figure 3 below)*: regardless of model, subgroup, or construct, synthetic response distributions are narrower than the real data — even where the synthetic mean closely matches the human mean — consistent with variance-compression effects reported in prior synthetic-survey-data literature (Bisbee et al., 2024).
