@@ -91,11 +91,10 @@ pingouin
 
 <br/>
 <br/>
+<br/>
   
 ![image](visualization/1_llama.png)  
 
-<br/>
-<br/>
 <br/>
 
 ### Visualization Results by gpt-4o
@@ -104,6 +103,7 @@ pingouin
 
 <img src="visualization/2_gpt.png" width="500" height="500"/>
 
+<br/>
 <br/>
 <br/>
 
