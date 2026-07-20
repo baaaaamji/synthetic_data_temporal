@@ -95,6 +95,8 @@ pingouin
 ![image](visualization/1_llama.png)  
 
 <br/>
+<br/>
+<br/>
 
 ### Visualization Results by gpt-4o
 
@@ -110,6 +112,12 @@ pingouin
 </div>
 
 <br/>
+
+
+
+<br/>
+
+## Comments
 
 - Full quantitative results (Cohen's d by construct, subgroup, and model) will be released alongside the paper upon publication.
 
