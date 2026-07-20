@@ -67,26 +67,34 @@ seaborn
 pingouin
 
 ## Results Overview
-<br/>
+
 <br/>
 
-### Visualization Results of llama3
+## Visualization Results of llama3
+
+<br/>
 
 <img src="visualization/2_llama.png" width="500" height="500"/>
+
+<br/>
+<br/>
 
 ![image](visualization/1_llama.png)  
 
 <br/>
 <br/>
-<br/>
 
-### Visualization Results of gpt-4o
+## Visualization Results of gpt-4o
+
+<br/>
 
 <img src="visualization/2_gpt.png" width="500" height="500"/>
 
+<br/>
+<br/>
+
 ![image](visualization/1_gpt.png)
 
-<br/>
 <br/>
 <br/>
 
