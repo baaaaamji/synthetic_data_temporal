@@ -71,6 +71,7 @@ pingouin
 <br/>
 
 <img src="visualization/2_llama.png" width="500" height="500"/>
+
 ![image](visualization/1_llama.png)  
 
 <br/>
@@ -78,6 +79,7 @@ pingouin
 <br/>
 
 <img src="visualization/2_gpt.png" width="500" height="500"/>
+
 ![image](visualization/1_gpt.png)
 
 <br/>
