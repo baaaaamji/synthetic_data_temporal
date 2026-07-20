@@ -82,8 +82,6 @@ pingouin
 - Subgroup-level mean-comparison plots (real vs. synthetic, monocultural vs. multicultural) across the models and questionaries.
 
 <div align="center">
-<br/>
-
 <img src="visualization/2_llama.png" width="500" height="500"/>
 
 <br/>
@@ -92,7 +90,6 @@ pingouin
   
 ![image](visualization/1_llama.png)  
 
-<br/>
 <br/>
 <br/>
 <br/>
@@ -106,12 +103,6 @@ pingouin
 ![image](visualization/1_gpt.png)
 
 </div>
-
-<br/>
-
-
-
-<br/>
 
 ## Comments
 Full quantitative results (Cohen's d by construct, subgroup, and model) will be released alongside the paper upon publication.
