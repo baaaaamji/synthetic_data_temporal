@@ -118,6 +118,5 @@ pingouin
 <br/>
 
 ## Comments
-
-- Full quantitative results (Cohen's d by construct, subgroup, and model) will be released alongside the paper upon publication.
+Full quantitative results (Cohen's d by construct, subgroup, and model) will be released alongside the paper upon publication.
 
