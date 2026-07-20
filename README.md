@@ -49,13 +49,9 @@ Each composite construct is min-max normalized using the **theoretical range of 
 
 ### 5. Statistical Comparison
 For each construct, and separately for each subgroup (general / multicultural):
-- An independent-samples **t-test** (via `pingouin`) is run between the real and synthetic distributions.
 - Because large sample sizes can make even trivial differences appear statistically significant, **Cohen's d** effect size is computed alongside the t-test and used as the primary basis for interpreting practical differences, following standard thresholds (negligible / small / medium / large).
 
-### 6. Visualization
-- Overlaid normal-distribution plots (real vs. synthetic) across the models and questionaries.
-- Subgroup-level mean-comparison plots (real vs. synthetic, monocultural vs. multicultural) across the models and questionaries.
-
+  
 ## Requirements
 pandas
 numpy
@@ -81,6 +77,10 @@ pingouin
 - **Variance is consistently compressed** *(see Figure 3 below)*: regardless of model, subgroup, or construct, synthetic response distributions are narrower than the real data — even where the synthetic mean closely matches the human mean — consistent with variance-compression effects reported in prior synthetic-survey-data literature (Bisbee et al., 2024).
 
 ## Visualization
+
+- Overlaid normal-distribution plots (real vs. synthetic) across the models and questionaries.
+- Subgroup-level mean-comparison plots (real vs. synthetic, monocultural vs. multicultural) across the models and questionaries.
+
 
 ### Visualization Results by llama3
 
