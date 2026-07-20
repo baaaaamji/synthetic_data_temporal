@@ -83,6 +83,7 @@ pingouin
 
 ### Visualization Results of gpt-4o
 
+<br/>
 
 <img src="visualization/2_gpt.png" width="500" height="500"/>
 
