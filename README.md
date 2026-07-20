@@ -70,6 +70,8 @@ pingouin
 <br/>
 <br/>
 
+### Visualization Results of llama3
+
 <img src="visualization/2_llama.png" width="500" height="500"/>
 
 ![image](visualization/1_llama.png)  
@@ -77,6 +79,8 @@ pingouin
 <br/>
 <br/>
 <br/>
+
+### Visualization Results of gpt-4o
 
 <img src="visualization/2_gpt.png" width="500" height="500"/>
 
