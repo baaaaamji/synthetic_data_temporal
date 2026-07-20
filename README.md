@@ -68,6 +68,8 @@ pingouin
 
 ## Results Overview
 
+<img src="visualization/2_llama.png" width="200" height="400"/>
+<img src="visualization/2_gpt.png" width="200" height="400"/>
 
 [![Mean Difference Across the Questions by gpt-4o](visualization/2_gpt.png)
 [![Mean Difference Across the Questions by llama3](visualization/2_llama.png)
