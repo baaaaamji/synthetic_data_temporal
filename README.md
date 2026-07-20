@@ -69,6 +69,8 @@ pingouin
 ## Results Overview
 
 <img src="visualization/2_llama.png" width="500" height="500"/>
+
+
 <img src="visualization/2_gpt.png" width="500" height="500"/>
 
 - **No consistent subgroup bias.** Across the 11 constructs and both LLMs, neither the monocultural nor the multicultural adolescent subgroup is modeled more accurately overall; group-level gaps that do appear are construct-specific and their direction is inconsistent across models, so we find no evidence that either LLM systematically favors the majority or minority group.
@@ -78,6 +80,8 @@ pingouin
 
   
 ![Distribution Groups by gpt-4o](visualization/1_gpt.png)
+
+
 ![Distribution Groups by llama3](visualization/1_llama.png)
   
 - **Construct matters more than subgroup, and the pattern differs by model**:
