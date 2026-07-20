@@ -17,7 +17,7 @@ Both notebooks follow an identical analysis pipeline, applied independently to e
 
 - **Real data**: an adolescent panel survey with two respondent subgroups — monocultural-background youth and multicultural-background youth — covering psychosocial constructs related to family environment, peer/teacher relationships, exposure to violence, delinquency, and depressive symptoms.
 - **Synthetic data**: LLM-generated responses intended to emulate the same survey instrument, for each subgroup, produced separately by GPT and Llama (generation code/prompts are external to this repository).
-- Raw data files (`.sav` survey files, synthetic response files) are **not included** in this repository. But it can be accessed at the KOSSDA webstie http://www.kossda.or.kr
+- Raw data files (`.sav` survey files, synthetic response files) are **not included** in this repository. But it can be accessed at the [KOSSDA](http://www.kossda.or.kr).
 
 ## Methodology
 
@@ -70,14 +70,23 @@ pingouin
 
 ## Results Overview
 
-*(Directional summary only — detailed effect-size tables (Table 1) are withheld pending publication.)*
+[![Mean Difference Across the Questions by gpt-4o](visualization/1_gpt.png)
+[![Mean Difference Across the Questions by llama3](visualization/1_llama.png)
+
 
 - **No consistent subgroup bias.** Across the 11 constructs and both LLMs, neither the monocultural nor the multicultural adolescent subgroup is modeled more accurately overall; group-level gaps that do appear are construct-specific and their direction is inconsistent across models, so we find no evidence that either LLM systematically favors the majority or minority group.
   - For the **Llama-based model**, synthetic responses are closer to monocultural adolescents' real responses in family atmosphere, father intimacy, and mother intimacy — but this reverses in teacher support, where the model aligns more closely with multicultural adolescents.
   - For the **GPT-based model**, a similar reversal appears in family atmosphere and father intimacy, where synthetic responses align more closely with multicultural rather than monocultural adolescents.
 - **Model comparison.** The **GPT-based model** generally tracks the real data distributions more closely than the **Llama-based model**, with comparatively fewer large-effect-size divergences overall.
-- **Construct matters more than subgroup, and the pattern differs by model** *(see Figure 2 below)*:
+
+  
+[![Distribution Groups by gpt-4o](visualization/2_gpt.png)
+[![Distribution Groups by llama3](visualization/2_llama.png)
+  
+- **Construct matters more than subgroup, and the pattern differs by model**:
   - The **Llama-based model**'s human–synthetic gap is substantially larger for socially stigmatized constructs (violence, delinquency, depression) than for general relationship constructs, with a consistent tendency to overestimate how often these stigmatized behaviors occur. This pattern holds for both subgroups.
   - The **GPT-based model** shows the opposite tendency in places: it performs relatively well on some stigmatized constructs (e.g., status and serious delinquency) but underestimates responses on general-relationship constructs such as teacher and friend support.
 - **Variance is consistently compressed** *(see Figure 3 below)*: regardless of model, subgroup, or construct, synthetic response distributions are narrower than the real data — even where the synthetic mean closely matches the human mean — consistent with variance-compression effects reported in prior synthetic-survey-data literature (Bisbee et al., 2024).
 - Full quantitative results (Cohen's d by construct, subgroup, and model) will be released alongside the paper upon publication.
+
+
