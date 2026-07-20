@@ -68,9 +68,16 @@ pingouin
 
 ## Results Overview
 
-*(Directional summary only — detailed effect-size tables are withheld pending publication.)*
+## Results Overview
 
-- Both GPT- and Llama-generated synthetic data show **measurable divergence** from the real data on at least some constructs, with the gap generally larger for behavioral/clinical constructs (e.g., delinquency, depression, abuse-related items) than for general attitudinal constructs (e.g., family atmosphere).
-- Across the constructs evaluated, the **GPT-based synthetic data tracked the real data distributions more closely** than the Llama-based synthetic data overall, showing comparatively fewer large-effect-size divergences.
-- Divergence patterns were broadly **consistent between the general and multicultural subgroups within the same model**, suggesting the observed differences are more attributable to the generating model than to subgroup-specific factors.
-- Full quantitative results (effect sizes and per-construct interpretation) will be released alongside the paper upon publication.
+*(Directional summary only — detailed effect-size tables (Table 1) are withheld pending publication.)*
+
+- **No consistent subgroup bias.** Across the 11 constructs and both LLMs, neither the monocultural nor the multicultural adolescent subgroup is modeled more accurately overall; group-level gaps that do appear are construct-specific and their direction is inconsistent across models, so we find no evidence that either LLM systematically favors the majority or minority group.
+  - For the **Llama-based model**, synthetic responses are closer to monocultural adolescents' real responses in family atmosphere, father intimacy, and mother intimacy — but this reverses in teacher support, where the model aligns more closely with multicultural adolescents.
+  - For the **GPT-based model**, a similar reversal appears in family atmosphere and father intimacy, where synthetic responses align more closely with multicultural rather than monocultural adolescents.
+- **Model comparison.** The **GPT-based model** generally tracks the real data distributions more closely than the **Llama-based model**, with comparatively fewer large-effect-size divergences overall.
+- **Construct matters more than subgroup, and the pattern differs by model** *(see Figure 2 below)*:
+  - The **Llama-based model**'s human–synthetic gap is substantially larger for socially stigmatized constructs (violence, delinquency, depression) than for general relationship constructs, with a consistent tendency to overestimate how often these stigmatized behaviors occur. This pattern holds for both subgroups.
+  - The **GPT-based model** shows the opposite tendency in places: it performs relatively well on some stigmatized constructs (e.g., status and serious delinquency) but underestimates responses on general-relationship constructs such as teacher and friend support.
+- **Variance is consistently compressed** *(see Figure 3 below)*: regardless of model, subgroup, or construct, synthetic response distributions are narrower than the real data — even where the synthetic mean closely matches the human mean — consistent with variance-compression effects reported in prior synthetic-survey-data literature (Bisbee et al., 2024).
+- Full quantitative results (Cohen's d by construct, subgroup, and model) will be released alongside the paper upon publication.
