@@ -78,10 +78,10 @@ pingouin
   - For the **GPT-based model**, a similar reversal appears in family atmosphere and father intimacy, where synthetic responses align more closely with multicultural rather than monocultural adolescents.
 - **Model comparison.** The **GPT-based model** generally tracks the real data distributions more closely than the **Llama-based model**, with comparatively fewer large-effect-size divergences overall.
 
+
+![image](visualization/1_llama.png)  
 <br />
-[![Distribution Groups by llama3](visualization/1_llama.png)  
-<br />
-[![Distribution Groups by gpt-4o](visualization/1_gpt.png)
+![image](visualization/1_gpt.png)
 <br />
   
 - **Construct matters more than subgroup, and the pattern differs by model**:
