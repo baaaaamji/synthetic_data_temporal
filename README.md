@@ -68,8 +68,6 @@ pingouin
 
 ## Results Overview
 
-<br/>
-
 ### Visualization Results of llama3
 
 <br/>
@@ -82,11 +80,9 @@ pingouin
 ![image](visualization/1_llama.png)  
 
 <br/>
-<br/>
 
 ### Visualization Results of gpt-4o
 
-<br/>
 
 <img src="visualization/2_gpt.png" width="500" height="500"/>
 
@@ -96,8 +92,6 @@ pingouin
 ![image](visualization/1_gpt.png)
 
 <br/>
-<br/>
-
 
 - **No consistent subgroup bias.** Across the 11 constructs and both LLMs, neither the monocultural nor the multicultural adolescent subgroup is modeled more accurately overall; group-level gaps that do appear are construct-specific and their direction is inconsistent across models, so we find no evidence that either LLM systematically favors the majority or minority group.
   - For the **Llama-based model**, synthetic responses are closer to monocultural adolescents' real responses in family atmosphere, father intimacy, and mother intimacy — but this reverses in teacher support, where the model aligns more closely with multicultural adolescents.
