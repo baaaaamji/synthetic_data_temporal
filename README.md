@@ -71,11 +71,16 @@ pingouin
 <br/>
 
 <img src="visualization/2_llama.png" width="500" height="500"/>
+![image](visualization/1_llama.png)  
 
+<br/>
+<br/>
 <br/>
 
 <img src="visualization/2_gpt.png" width="500" height="500"/>
+![image](visualization/1_gpt.png)
 
+<br/>
 <br/>
 <br/>
 
@@ -85,20 +90,6 @@ pingouin
   - For the **GPT-based model**, a similar reversal appears in family atmosphere and father intimacy, where synthetic responses align more closely with multicultural rather than monocultural adolescents.
 - **Model comparison.** The **GPT-based model** generally tracks the real data distributions more closely than the **Llama-based model**, with comparatively fewer large-effect-size divergences overall.
 
-<br/>
-<br/>
-<br/>
-
-
-![image](visualization/1_llama.png)  
-
-<br/>
-
-
-![image](visualization/1_gpt.png)
-
-<br/>
-<br/>
   
 - **Construct matters more than subgroup, and the pattern differs by model**:
   - The **Llama-based model**'s human–synthetic gap is substantially larger for socially stigmatized constructs (violence, delinquency, depression) than for general relationship constructs, with a consistent tendency to overestimate how often these stigmatized behaviors occur. This pattern holds for both subgroups.
