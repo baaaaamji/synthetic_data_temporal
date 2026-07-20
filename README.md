@@ -68,12 +68,8 @@ pingouin
 
 ## Results Overview
 
-<img src="visualization/2_llama.png" width="200" height="400"/>
-<img src="visualization/2_gpt.png" width="200" height="400"/>
-
-[![Mean Difference Across the Questions by gpt-4o](visualization/2_gpt.png)
-[![Mean Difference Across the Questions by llama3](visualization/2_llama.png)
-
+<img src="visualization/2_llama.png" width="500" height="500"/>
+<img src="visualization/2_gpt.png" width="500" height="500"/>
 
 - **No consistent subgroup bias.** Across the 11 constructs and both LLMs, neither the monocultural nor the multicultural adolescent subgroup is modeled more accurately overall; group-level gaps that do appear are construct-specific and their direction is inconsistent across models, so we find no evidence that either LLM systematically favors the majority or minority group.
   - For the **Llama-based model**, synthetic responses are closer to monocultural adolescents' real responses in family atmosphere, father intimacy, and mother intimacy — but this reverses in teacher support, where the model aligns more closely with multicultural adolescents.
@@ -81,8 +77,8 @@ pingouin
 - **Model comparison.** The **GPT-based model** generally tracks the real data distributions more closely than the **Llama-based model**, with comparatively fewer large-effect-size divergences overall.
 
   
-[![Distribution Groups by gpt-4o](visualization/1_gpt.png)
-[![Distribution Groups by llama3](visualization/1_llama.png)
+![Distribution Groups by gpt-4o](visualization/1_gpt.png)
+![Distribution Groups by llama3](visualization/1_llama.png)
   
 - **Construct matters more than subgroup, and the pattern differs by model**:
   - The **Llama-based model**'s human–synthetic gap is substantially larger for socially stigmatized constructs (violence, delinquency, depression) than for general relationship constructs, with a consistent tendency to overestimate how often these stigmatized behaviors occur. This pattern holds for both subgroups.
